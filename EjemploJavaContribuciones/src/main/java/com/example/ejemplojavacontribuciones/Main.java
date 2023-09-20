@@ -1,8 +1,7 @@
-package com.example.ejemplojavacontribuciones;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        scaner sc = new Scaner(System.in)
+        Scanner sc = new Scanner(System.in)
         int numero = sc.nextInt();
         System.out.print(numero*2);
 
